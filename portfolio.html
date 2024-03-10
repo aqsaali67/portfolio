@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/portfolio.css" />
+  </head>
+  <body id="body">
+    <nav class="navbar">
+      <div class="logo-parent">
+      <img
+          src="./pictures/Beige_and_Black_Minimalist_Skincare_Logo-removebg-preview.png"
+          class="logo"/>
+      </div>
+      <div id="menu"  class="menu" >
+      <div class="ul">
+        <li class="li"><a href="#">HOME</a></li>
+        <li class="li"><a href="#">ABOUT</a></li>
+        <li class="li"><a href="#">CONTACT</a></li>
+        <li class="li"><a href="#">PROJECTS</a></li>
+      </div>        
+    </div>
+    <div class="icon-parent-div">
+      <div onclick="showMenu()" class="menu-parent">
+        <img src="./pictures/grid.png" class="menu-icon">
+      </div>
+
+      <div class="modes">
+        <button onclick="mode()" class="mood_btn">
+          <img src="./pictures/sun.png" class="moon" id="sun-moon"></button>
+      </div>
+    </div>
+
+    </nav>
+    <div class="main"></div>
+    <script src="./js/portfolio.js"></script>
+  </body>
+</html>
